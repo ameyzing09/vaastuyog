@@ -44,8 +44,12 @@ body{
     flex-direction: row;
 }
 
-.about-us-div ul, .about-us-div ol{
+.about-us-div ul{
     padding: 40px;
+}
+
+.about-us-div ol{
+    padding: 0 40px 40px 40px;
 }
 
 @media only screen and (max-width: 500px){
