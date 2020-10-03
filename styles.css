@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#96C83C;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3AB54A;
+}
+
+.navbar img{
+    width: 150px;
+}
+
+.about-us-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 10px;
+    line-height: 2;
+    width: 75%;
+}
+
+.title{
+    font-family: 'Grenze Gotisch', cursive;
+    text-align: center;    
+    font-size: 4rem;
+}
+
+.about-us-div p, .about-us-div ul, .about-us-div ol{
+    font-size: 1.5rem;
+}
+
+.bank-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-div ul, .about-us-div ol{
+    padding: 40px;
+}
+
+@media only screen and (max-width: 500px){
+    .title{
+        font-size: 2rem;
+    }
+    
+    .about-us-div p, .about-us-div ul, .about-us-div ol{
+        font-size: 1rem;
+    }
+
+    .bank-logo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+input[type=text], input[type=email], input[type=number], select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: teal;
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover{
+    background-color:  #015d56;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #96C83C;
+    padding: 0px;  
+     
+}
+
+.form-col{
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+
+.form-col2{
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+
+.row1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px){
+    .form-col, .form-col2, input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
