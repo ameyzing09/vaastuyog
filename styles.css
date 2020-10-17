@@ -22,21 +22,19 @@ body{
 .about-us-div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 10px auto;
-    padding: 10px;
-    line-height: 2;
-    width: 75%;
+    line-height: 1.5;
+    margin: 10px 10px 0 10px;
+    padding: 20px 10px 0 10px;
 }
 
 .title{
     font-family: 'Grenze Gotisch', cursive;
     text-align: center;    
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .about-us-div p, .about-us-div ul, .about-us-div ol{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .bank-logo{
@@ -64,6 +62,9 @@ body{
     .bank-logo{
         display: flex;
         flex-direction: column;
+    }
+    .about-us-div iframe{
+        width: 100%;
     }
 }
 
