@@ -52,11 +52,22 @@ body{
 }
 
 .about-us-div ul{
-    padding: 40px;
+    padding: 10px 20px ;
 }
 
 .about-us-div ol{
-    padding: 0 40px 40px 40px;
+    padding: 0 20px 0 20px;
+}
+
+.contact-card{
+    background-color: antiquewhite;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 
